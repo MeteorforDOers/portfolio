@@ -1,0 +1,140 @@
+/* bit.ly/M4DPORT */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700,700italic);
+
+/* 
+*
+=========     FONTS    =========
+*
+*/
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  margin-bottom: 40px;
+}
+
+h4, p, ul {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+ a { 
+	padding: 0;
+	margin: 0;
+	text-decoration: none; 
+	color: #1abc9c;
+}
+
+a:hover,
+a:focus {
+  text-decoration: none;
+  color:#696E74;
+} 
+/* add css to settings: http://ionicons.com/ */
+i {
+  font-size: 30px;
+}
+
+ul {
+  font-size: 18px;
+}
+
+.btn-teal{
+  background-color: #1abc9c;
+  color: white;
+  letter-spacing: 3px;
+}
+.teal {
+  color: #1abc9c;
+}
+
+/* 
+*
+=========     SIDE IMAGE    =========
+*
+*/
+.side-image {
+    padding: 0px;
+    position: relative;
+}
+  /*  On column  */
+.image-container {
+    overflow: hidden;
+    position: absolute;
+    height: 100%;
+    padding: 0px;
+    top: 0px;
+}
+
+.background-image-holder {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    background-size: cover !important;
+    background-position: 70% 50% !important;
+}
+
+.background-image-holder img {
+  height: 100%;
+}
+
+/* CONTENT COLUMN */
+.content {
+  padding: 60px;
+  background-color: #E3F23;
+}
+
+/* Icons */
+p.social a > i {
+  margin-right: 80px;
+  margin-bottom: 30px;
+}
+
+
+/* COLUMN EQUAL HEIGHT */
+.row-eq-height{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/* 
+*
+=========     PORTFOLIO TITLE    =========
+*
+*/
+#port-title {
+  background: #03C9A9;
+  color: #fff;
+  padding-top: 90px;
+  padding-bottom: 60px;
+}
+
+/* 
+*
+=========     PORTFOLIO TITLE    =========
+*
+*/
+#portfolio {
+  padding: 60px 0;
+}
+
+.mt {
+  margin-top: 60px;
+}
+
+footer {
+  background: #333232;
+  padding: 50px 0;
+}
+
+footer p {
+  color: #fff;
+  text-transform: uppercase;
+}
+
+
+/* change font for a section/div */
+/* max-height:220px *//* CSS declarations go here */

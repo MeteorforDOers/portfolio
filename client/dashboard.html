@@ -1,0 +1,17 @@
+<template name="dashboard">
+  <div class="container">
+      <h2 class="text-center">Dashboard</h2>
+	<div class="row">
+      <div class="col-md-6 col-md-offset-3">
+      	
+		<!-- BIO INSERT -->
+      	<h2 class="text-center">Bio Section</h2>
+		  {{> quickForm collection="Author" id="insertAuthorForm" type="insert" class="new-author-form"}}
+      </div>
+      <div class="col-md-6 col-md-offset-3">
+      	<h2 class="text-center">Project Section</h2>
+		  {{> quickForm collection="Projects" id="insertProjectForm" type="insert" class="new-project-form"}}
+      </div>
+    </div> <!-- /row -->
+  </div>
+</template>

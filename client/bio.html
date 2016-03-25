@@ -1,0 +1,57 @@
+<template name="bio">
+
+<section id="bio" class="side-image">
+  <div class="container-fluid">
+  {{#each author}}
+    <div class="row">
+      <!--   IMAGE     -->
+      <div class="col-md-4 col-xs-12 image-container pull-left clearfix">    
+        <div class="background-image-holder">
+          <img src="https://static.pexels.com/photos/8988/pexels-photo.jpeg" alt="Rocker" class="mg-responsive"/>
+        </div>
+      </div>
+      
+      <!--  Bio Content     -->
+      <div class="col-md-8 col-xs-12 pull-right content"> 
+        
+	        <h1 class="blueish"> {{name}} </h1>
+
+	        <p class="lead">{{bio}}</p>
+	        <!-- command/control slash Check out Emmet for html snippets -->
+
+	        <h3 class="teal mt">Skills</h3>
+	        <ul>
+	          <li>Teaching</li>
+	          <li>Writing </li>
+	          <li>Public Speaking</li>
+	        </ul>
+
+	        <a href="mailto:do@urbaninnovators.org" class="btn btn-teal mt">
+	          Contact me
+	        </a>
+	        
+	        <p class="social mt">
+	        {{#each social}}
+	          <a href="{{url}}">
+	            <i class="ion-social-{{network}}"></i>
+	          </a>
+
+	        {{/each}}
+	        <!--   <a href="#">
+	            <i class="ion-social-facebook"></i>
+	          </a>
+	          <a href="#">
+	            <i class="ion-social-instagram"></i>
+	          </a> -->
+	        </p>
+	    
+        
+     </div> <!--/col-md-8 -->
+    
+    </div> <!--/row -->
+  	{{/each}}
+  </div> <!--/container -->
+
+</section> <!--/bio section -->
+
+</template>		

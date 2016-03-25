@@ -1,0 +1,18 @@
+<template name="projects">
+	<!-- PORTFOLIO PROJECTS-->
+	<section id="portfolio">
+	  <div class="container">
+	    <div class="row">
+	    {{#each projects}}
+	      <div class="col-md-4">
+	        <a href="{{projectUrl}}">
+	          <img src="{{img}}" alt="Code Class" class="img-responsive" />
+	        </a>
+	        <h3>{{title}}</h3>
+	        <p>{{description}}</p>
+	      </div>
+	      {{/each}}
+	    </div>
+	  </div>
+	</section>
+</template>
